@@ -2,7 +2,15 @@
 Module to provide estimates of the Bottom-of-Atmosphere (surface-level reflectance) using the ASTM G173 simulated spectrum and the sensor sensitivity of the S2A sensors.
 Handles out-of-range values and returns in popular xarray.DataArray format.
 
-# Example Useage
+## Installation
+Not pip installable. Run scripts in root directory of this repository
+
+## Requirements
+- NumPy
+- xarray
+- pandas
+
+## Example Useage
 
 ```python
 from SentinelSim import read_file, simulate
